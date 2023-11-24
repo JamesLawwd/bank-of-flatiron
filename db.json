@@ -1,88 +1,81 @@
 {
-    "transactions": [
-      {
-        "id": 10,
-        "date": "2019-12-16",
-        "description": "Tickets, Flatiron Multiplex Cinemas",
-        "category": "Entertainment",
-        "amount": -24
-      },
-      {
-        "id": 11,
-        "date": "2019-12-16",
-        "description": "MTA Vending Machine: MetroCard",
-        "category": "Transportation",
-        "amount": -116.39
-      },
-      {
-        "id": 12,
-        "date": "2019-12-17",
-        "description": "Venmo, Pay Roommate for Rent",
-        "category": "Housing",
-        "amount": -975
-      },
-      {
-        "date": "2022-07-09",
-        "description": "Office lunch",
-        "category": "Food",
-        "amount": "2000",
-        "id": 13
-      },
-      {
-        "date": "2022-02-09",
-        "description": "Paycheck from Bob's Burger",
-        "category": "income",
-        "amount": "1000",
-        "id": 14
-      },
-      {
-        "date": "2019-10-16",
-        "description": "South by southwest Quinoa Bowl at Fresh & Co",
-        "category": "Food",
-        "amount": "-10.55",
-        "id": 15
-      },
-      {
-        "date": "2021-06-16",
-        "description": "Sunglasses,Urban Outfitters",
-        "category": "Fashion",
-        "amount": "-24.99",
-        "id": 16
-      },
-      {
-        "date": "2021-09-15",
-        "description": "Trousers",
-        "category": "Fashion",
-        "amount": "-700",
-        "id": 17
-      },
-      {
-        "date": "2023-07-20",
-        "description": "Fries",
-        "category": "Food",
-        "amount": "1.50",
-        "id": 18
-      },
-      {
-        "date": "2019-06-12",
-        "description": "Mask",
-        "category": "Health",
-        "amount": "20.50",
-        "id": 19
-      },
-      {
-        "date": "2023-07-13",
-        "description": "Batman",
-        "category": "Entertainment",
-        "amount": "1000",
-        "id": 20
-      },
-      {
-        "date": "2012-10-24",
-        "description": "Clothes",
-        "category": "income",
-        "amount": "2000",
-        "id": 21
-      }
-    ]
-  }
+  "transactions": [
+    {
+      "id": 11,
+      "date": "2019-12-16",
+      "description": "MTA Vending Machine: MetroCard",
+      "category": "Transportation",
+      "amount": -116.39
+    },
+    {
+      "id": 12,
+      "date": "2019-12-17",
+      "description": "Venmo, Pay Roommate for Rent",
+      "category": "Housing",
+      "amount": -975
+    },
+    {
+      "date": "2022-07-09",
+      "description": "Office lunch",
+      "category": "Food",
+      "amount": "2000",
+      "id": 13
+    },
+    {
+      "date": "2022-02-09",
+      "description": "Paycheck from Bob's Burger",
+      "category": "income",
+      "amount": "1000",
+      "id": 14
+    },
+    {
+      "date": "2019-10-16",
+      "description": "South by southwest Quinoa Bowl at Fresh & Co",
+      "category": "Food",
+      "amount": "-10.55",
+      "id": 15
+    },
+    {
+      "date": "2021-06-16",
+      "description": "Sunglasses,Urban Outfitters",
+      "category": "Fashion",
+      "amount": "-24.99",
+      "id": 16
+    },
+    {
+      "date": "2021-09-15",
+      "description": "Trousers",
+      "category": "Fashion",
+      "amount": "-700",
+      "id": 17
+    },
+    {
+      "date": "2023-07-20",
+      "description": "Fries",
+      "category": "Food",
+      "amount": "1.50",
+      "id": 18
+    },
+    {
+      "date": "2019-06-12",
+      "description": "Mask",
+      "category": "Health",
+      "amount": "20.50",
+      "id": 19
+    },
+    {
+      "date": "2023-07-13",
+      "description": "Batman",
+      "category": "Entertainment",
+      "amount": "1000",
+      "id": 20
+    },
+    {
+      "date": "2023-11-24",
+      "description": "yummy",
+      "category": "rio",
+      "amount": "10",
+      "id": 21
+    }
+  ]
+}

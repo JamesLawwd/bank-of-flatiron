@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+# Bank of Flatiron
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bank App is a web application built on React that displays a list of your recent bank transactions, among other features.
+Learning Goals
 
-## Available Scripts
+# Implement a mini web app to practice on React:
 
-In the project directory, you can run:
+    Components,
+    Props,
+    State,
+    Events and data fetching
 
-### `npm start`
+# Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following have been used on this project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    HTML
+    CSS
+    JavaScript/React
 
-### `npm test`
+# Project Setup & Pre-requisite Data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    In your project directory, create a db.json file and use the json data below for your server DB.
 
-### `npm run build`
+    {
+      "transactions": [
+        {
+          "id": 1,
+          "date": "2019-12-01",
+          "description": "Paycheck from Bob's Burgers",
+          "category": "Income",
+          "amount": 1000
+        },
+        {
+          "id": 2,
+          "date": "2019-12-01",
+          "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+          "category": "Food",
+          "amount": -10.55
+        },
+        {
+          "id": 3,
+          "date": "2019-12-02",
+          "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+          "category": "Food",
+          "amount": -10.55
+        },
+        {
+          "id": 4,
+          "date": "2019-12-04",
+          "description": "Sunglasses, Urban Outfitters",
+          "category": "Fashion",
+          "amount": -24.99
+        },
+        {
+          "id": 5,
+          "date": "2019-12-06",
+          "description": "Venmo, Alice Pays you for Burrito",
+          "category": "Food",
+          "amount": 8.75
+        },
+        {
+          "id": 6,
+          "date": "2019-12-06",
+          "description": "Chipotle",
+          "category": "Food",
+          "amount": -17.59
+        },
+        {
+          "id": 7,
+          "date": "2019-12-07",
+          "description": "Birthday Check from Grandma",
+          "category": "Gift",
+          "amount": 50
+        },
+        {
+          "id": 8,
+          "date": "2019-12-09",
+          "description": "Lyft Ride",
+          "category": "Transportation",
+          "amount": -13.25
+        },
+        {
+          "id": 9,
+          "date": "2019-12-11",
+          "description": "Paycheck from Bob's Burgers",
+          "category": "Income",
+          "amount": 1000
+        },
+        {
+          "id": 10,
+          "date": "2019-12-16",
+          "description": "Tickets, Flatiron Multiplex Cinemas",
+          "category": "Entertainment",
+          "amount": -24
+        },
+        {
+          "id": 11,
+          "date": "2019-12-16",
+          "description": "MTA Vending Machine: MetroCard",
+          "category": "Transportation",
+          "amount": -116.39
+        },
+        {
+          "id": 12,
+          "date": "2019-12-17",
+          "description": "Venmo, Pay Roommate for Rent",
+          "category": "Housing",
+          "amount": -975
+        },
+        {
+          "date": "2022-07-09",
+          "description": "Office lunch",
+          "category": "Food",
+          "amount": "2000",
+          "id": 13
+        },
+        {
+          "date": "2022-07-09",
+          "description": "Office lunch Wednesday",
+          "category": "Food",
+          "amount": "3000",
+          "id": 14
+        }
+      ]
+    }
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Run this command to get the backend started: json-server --watch db.json
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Test your server by visiting this route in the browser http://localhost:8001/transactions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Core Deliverables
 
-### `npm run eject`
+As a user, you'll be able to:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    See a table of all transactions
+    Fill out and submit the form to add a new transaction. This should add the new transaction to the table
+    Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Bonus Deliverables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As a user, you'll be able to:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Sort transactions alphabetically by category or description.
+    Delete a transaction which will remove it from the table
 
-## Learn More
+# Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    James Kinyanjui
