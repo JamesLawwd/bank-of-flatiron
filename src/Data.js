@@ -18,7 +18,7 @@ const Data = () => {
   //fetch data
 
   useEffect(() => {
-    fetch("http://localhost:3000/transactions")
+    fetch("https://bank-api-opou.onrender.com/transactions")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch");
@@ -36,7 +36,7 @@ const Data = () => {
   const [transactions, setTransactions] = useState([]);
 
    const handleDelete = (id) => {
-    fetch(`http://localhost:3000/transactions/${id}`,{
+    fetch(`https://bank-api-opou.onrender.com/transactions/${id}`,{
     method:'DELETE'
     })
     .then(res => {

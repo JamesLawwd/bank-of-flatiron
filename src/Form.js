@@ -22,7 +22,7 @@ const Form = () => {
     e.preventDefault();
 
     //fetch data
-       fetch('http://localhost:3000/transactions',{
+       fetch('https://bank-api-opou.onrender.com/transactions',{
         method:'POST',
         headers:{
           'content-type':'application/json'
